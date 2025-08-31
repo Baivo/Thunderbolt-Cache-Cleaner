@@ -1,0 +1,1 @@
+find ~ \( -path "*/Cache/*" -o -path "*/CacheStorage/*" -o -path "*/Code/Cache/*" -o -path "*/Code/User/workspaceStorage/*" -o -name "*cache*" -o -path "*/Trash/*" -o -path "*/trash/*" -o -path "*/.local/share/Trash/*" \) -exec rm -rf "{}" + 2>/dev/null && echo "Thunderbolt Clean complete. Enjoy the speed." || echo "An error occurred."
