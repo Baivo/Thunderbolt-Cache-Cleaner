@@ -3,14 +3,12 @@ A lightweight system optimization tool for modern Linux distributions. Cleans un
 
 # Usage
 ```bash
-curl -sL https://raw.githubusercontent.com/monorhenry-create/Thunderbolt-Cache-Cleaner/main/thunderbolt-clean.sh | bash
-```
-Or download and run manually:
-```bash
-wget https://raw.githubusercontent.com/monorhenry-create/Thunderbolt-Cache-Cleaner/main/thunderbolt-clean.sh
+git clone https://github.com/monorhenry-create/Thunderbolt-Cache-Cleaner.git
+cd Thunderbolt-Cache-Cleaner
 chmod +x thunderbolt-clean.sh
 ./thunderbolt-clean.sh
 ```
+
 # What It Cleans
 -Browser cache files
 
